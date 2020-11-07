@@ -1,0 +1,6 @@
+mvn compile assembly:single
+
+export CLASSPATH=".:target/elasticsearch-1.0.0-jar-with-dependencies.jar"
+javac -cp "$CLASSPATH" Test.java
+java Test
+
