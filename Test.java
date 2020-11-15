@@ -24,6 +24,8 @@ public class Test {
   public static void main(String[] input) {
 
     if (e.ping()) {
+      System.out.println("Ping OK");
+      
       /*long n = e.emptyIndex("idx-test");
       System.out.println("Deleted: "+n);
 
