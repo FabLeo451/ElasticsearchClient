@@ -254,7 +254,7 @@ public class ElasticsearchClient {
     String text = sdf.format(new Date());
     mapObject.put("@timestamp", text);
 
-    System.out.println(mapObject);
+    //System.out.println(mapObject);
 
     request.source(mapObject/*, XContentType.JSON*/);
 
